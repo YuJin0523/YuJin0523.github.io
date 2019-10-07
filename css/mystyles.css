@@ -1,0 +1,112 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+/*Here we defined text color will be the white for all elements and all text will be in the center /fon size*/
+
+h1{
+ padding: 5px;
+ background-color: #DAC4B8;
+ }
+
+
+h2{
+  font-size: 21px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 14px;
+  margin-bottom: 7px;
+  }
+  
+h3{
+  margin-top: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  }
+
+body{
+  padding: 55px;
+  font-family: Verdana, Geneva, sans-sesrif;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: #53575C;
+  background: url(architecture.jpg);
+  background-image: url("interior.jpg")
+}
+
+#header{
+  background-color: #F2D4B6;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-box-shadow: 3px 3px 3px 5px #967E61;
+  box-shadow: 3px 3px 3px 5px #967E61;
+  height: 80px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+#nav{
+  background-color: #F3F2EB;
+  width: 200px;
+  border: 15px;
+  padding: 50px;
+  margin-right: 30px;
+  height: 400px;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+
+#nav ul li{
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #F2D4B6;
+  }
+  
+#nav li a{
+  text-decoration: none;
+  color: #F6F2F2;
+  }
+  
+.job-title{
+  font-weight: bold;
+  padding: 0;
+  margin:0;
+  }
+  
+.job-place{
+  font-style: italic;
+  padding: 0;
+  margin:0;
+  }
+  
+.job-dates{
+  padding: 0;
+  margin:0;
+  }
+  
+#main{
+  background-color: #F3F2EB;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+  height: 400px;
+  clear:right;
+  font-size: 14px;
+  overflow: hidden;
+  
+}
+#footer{
+  background-color: #D9D4C3;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  height: 100px;
+  font-size: 22x;
+  padding: 40px;
+  text-align: center;
+}
